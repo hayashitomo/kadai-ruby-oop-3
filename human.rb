@@ -10,9 +10,7 @@ class Human < Animal
     @hobby = hobby
     
   end
-  
-  def think
-    puts "私は#{@hobby}について考えています。"
-  end
+
+include Thinkable
 
 end
